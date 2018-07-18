@@ -12,7 +12,8 @@ a:hover{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: .9rem 1.2rem
+    padding: .9rem 1.2rem;
+    
     
 }
 .navbar-nav li {
@@ -23,13 +24,14 @@ a:hover{
     border: 3px solid white;
     
 }
-.navbar-brand{
-    margin-left: 20px;
-}
+
 .navbar-brand img{
     width: 150px;
-    height: 75px;
-    margin-left: 20px;
+    height: 75px;  
+}
+.min-logo{
+    width: 80px !important;
+    height: 40px !important;
 }
 .fa-angle-down{
     width: 100%;
@@ -48,13 +50,68 @@ a:hover{
 .banner-1{
     padding: 0;
     padding-top: 80px;
+    padding-bottom: 80px;
     background-image: url("../img/banner-1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
-.banner-1 .container{
-    height: 2000px;
-    background-color: rgba(255, 255, 255, 0.4);
+.banner-1 > .container{
+    
+    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 100px;
+    padding: 30px;
+    
+}
+.banner-1 h1{
+    
+    font-weight: 800;
+}
+.in1{
+    font-size: 85px;
+    color: #FF0000;
+}
+.in2{
+    font-size: 66px;
+    color: #043EFC;
+}
+.in3{
+    font-size: 66px;
+    color: #FF0000;
+}
+.in4{
+    font-size: 48px;
+    color: #043EFC;
+}
+.banner-1 .container .row .col-md-12 h3{
+    margin-top: 2rem;
+    color: #FF0000;
+    font-weight: 600;
+    text-align: center;
+}
+
+form .container{
+    padding: 20px;
+}
+.banner-1 .container .row .col-md-6 .row > .col-md-12{
+    background-color: rgba(255, 255, 255, 0.8); 
+    font-weight: 500 !important;
+    
+}
+.btn{
+    font-weight: 700;
+    padding: 0.9rem;
+    font-size: 1rem;
+}
+
+
+.footer{
+    background-color: #043EFC;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.footer p i{
+    margin-left: 15px;
 }
