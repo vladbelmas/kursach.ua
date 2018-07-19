@@ -22,8 +22,11 @@ a:hover{
 }
 .navbar-nav li:hover{
     border: 3px solid white;
-    
 }
+.navbar-nav li:hover a{
+    color: #FF0000 !important;
+}
+
 
 .navbar-brand img{
     width: 150px;
@@ -40,7 +43,7 @@ a:hover{
 }
 .navbar-collapse-custom{
     margin: 0 auto;
-    margin-left: 20px;
+    
     height: 100%;
 }
 .nav-item p{
@@ -68,20 +71,16 @@ a:hover{
     font-weight: 800;
 }
 .in1{
-    font-size: 85px;
+    font-size: 3rem;
     color: #FF0000;
 }
 .in2{
-    font-size: 66px;
+    font-size: 110px;
     color: #043EFC;
 }
 .in3{
-    font-size: 66px;
+    font-size: 3rem;
     color: #FF0000;
-}
-.in4{
-    font-size: 48px;
-    color: #043EFC;
 }
 .banner-1 .container .row .col-md-12 h3{
     margin-top: 2rem;
@@ -103,6 +102,205 @@ form .container{
     padding: 0.9rem;
     font-size: 1rem;
 }
+.btn-outline-danger{
+    color: #FF0000;
+    border-color: #FF0000;
+}
+.btn-outline-danger:hover{
+    color: white;
+    background-color: #FF0000;
+}
+.o-nas{
+    padding: 40px;
+    
+}
+.o-nas .row:first-child .col-md-12 h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.o-nas .row .col-md-4 h2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.o-nas .row .col-md-4 p{
+    text-align: center;
+    font-weight: 500;
+}
+.o-nas  img{
+    display: block;
+    margin: 0 auto;
+}
+.o-nas hr{
+    margin-top: 40px;
+    border: none;
+    background-color: #FF0000;
+    height: 3px;
+    color: #FF0000;
+}
+.principies{
+    margin-top: 30px;
+}
+.principies li{
+    margin-top: 10px;
+}
+.why-work{
+    margin-top: 30px;
+}
+.why-work h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.why-work h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.prices{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.prices h1{
+    margin-bottom: 20px;
+}
+.prices .col-md-4{
+    max-width: 90%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.card-boy h3{
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5rem;
+    color: #FF0000;
+    font-weight: 700;
+    padding: 20px;
+}
+.prices img{
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+}
+.prices img:hover{
+    opacity: 0.7;
+}
+.card-boy h5{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    color: #FF0000;
+}
+
+.btn-zak{
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 86%;
+    max-width: 400px;
+    border: 3px solid #043EFC;
+    margin: 0 auto;
+    padding: 0.8rem 0;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn-zak:hover{
+    color: white !important;
+    background-color: #043EFC;
+}
+.prices .col-md-12 h3{
+    color: #FF0000;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.prices .col-md-12 ol li{
+    text-align: left;
+}
+.garanty{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-image: url("../img/garanty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.garanty h1{
+    font-weight: 700;
+}
+.garanty img{
+    margin: 0 auto;
+}
+.save{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.save h1{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.save p{
+    color: #FF0000;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.avtor{
+    text-align: center;
+    margin-top: 30px;
+}
+.avtor .row .col-md-12:first-child h1{
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.avtor .col-md-4 h1{
+    color: #3670bd;
+    font-size: 80px;
+}
+.avtor h3{
+    margin-top: 40px;
+    color: #3670bd;
+}
+.avtor h2{
+    margin-top: 30px;
+}
+.avtor p{
+    color: #3670bd;
+}
+.avtor hr{
+    border: none;
+    background-color: #FF0000;
+    height: 3px;
+    color: #FF0000;
+}
+.contacts{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contacts a{
+    color: black;
+}
+.contacts h1{
+    font-size: 70px;
+    color: #FF0000;
+}
+.contacts h3{
+    font-weight: 700;
+}
 
 
 .footer{
@@ -114,4 +312,7 @@ form .container{
 }
 .footer p i{
     margin-left: 15px;
+}
+.footer a:hover{
+    color: #FF0000 !important;
 }

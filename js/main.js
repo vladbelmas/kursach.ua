@@ -1,4 +1,11 @@
-jQuery(document).ready(function($) {	
+$(document).ready(function($) {
+	$(".smooth-scroll").on("click", function (event) {
+        var menu = $(this).attr('href');
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 50;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });	
 	var offset = 100,	
 		offset_opacity = 300,	
 		scroll_top_duration = 900,	
@@ -10,7 +17,8 @@ jQuery(document).ready(function($) {
             else{
                 $back_to_top.removeClass("min-logo");
             }
-        });
+		});
+		
 	/*$(window).scroll(function () {
 		( $(this).scrollTop() > 0 ) ? $back_to_top.addClass('min-logo') : $back_to_top.removeClass('min-logo');
 		if ($(this).scrollTop() > offset_opacity) {
