@@ -1,15 +1,18 @@
 $(document).ready(function($) {
+	
 	$(".smooth-scroll").on("click", function (event) {
         var menu = $(this).attr('href');
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top - 50;
         $('body,html').animate({scrollTop: top}, 1000);
-    });	
+	});
+	
 	var offset = 100,	
 		offset_opacity = 300,	
 		scroll_top_duration = 900,	
 		$back_to_top = $('#main-logo');
+		$back_to_top1 = $('#zakaz-form');
         $(window).scroll(function(){
             if ($(this).scrollTop()>0){
                 $back_to_top.addClass("min-logo");
@@ -26,13 +29,14 @@ $(document).ready(function($) {
 		}
 	});*/
 	
-	/*$back_to_top.on('click', function (event) {
+	$('.btn-zak').on('click', function (event) {
 		event.preventDefault();
 		$('body,html').animate({
-				scrollTop: 0,
+				scrollTop: $('#idform'),
 			}, scroll_top_duration
 		);
-    });*/
+		
+    });
     
 
 });

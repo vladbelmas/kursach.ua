@@ -3,6 +3,7 @@
 }
 a{
     color: white;
+    
 }
 a:hover{
     color: white;
@@ -12,9 +13,7 @@ a:hover{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: .9rem 1.2rem;
-    
-    
+    padding: .9rem 1.2rem; 
 }
 .navbar-nav li {
     margin-right: 20px;
@@ -157,6 +156,14 @@ form .container{
 .why-work h5{
     margin-top: 10px;
     text-align: center;
+}
+.prices .row  a{
+   color: black; 
+}
+.prices .row  a:hover{
+    
+    text-decoration: none;
+    color: white;
 }
 .prices{
     margin-top: 30px;
