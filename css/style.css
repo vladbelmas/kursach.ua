@@ -18,6 +18,7 @@ a:hover{
 .navbar-nav li {
     margin-right: 20px;
     text-align: center;
+    border: 3px solid transparent;
 }
 .navbar-nav li:hover{
     border: 3px solid white;
